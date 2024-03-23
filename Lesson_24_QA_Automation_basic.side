@@ -1,0 +1,468 @@
+{
+  "id": "340d73c7-3d35-4a82-b6b7-85cfac85e96b",
+  "version": "2.0",
+  "name": "Test_beetroot",
+  "url": "https://test.beetrootacademy.com/?_gl=1%2A1eavxl9%2A_ga%2AMTkxNDkwOTU4MS4xNzExMjA0MDY5%2A_ga_TKNMVTMFQV%2AMTcxMTIwNDA2OC4xLjEuMTcxMTIwNzc0OC4xOS4wLjA.",
+  "tests": [{
+    "id": "a1b58d40-c3a2-47ca-bc23-55a27007c67f",
+    "name": "",
+    "commands": []
+  }, {
+    "id": "0c1ed955-62a7-4bed-b2e2-56b8c387253a",
+    "name": "Free individual consultation",
+    "commands": [{
+      "id": "ac579224-97f2-4775-9fe1-2ed766d5b342",
+      "comment": "",
+      "command": "store",
+      "target": "id=lastname-2",
+      "targets": [],
+      "value": "myVarName"
+    }, {
+      "id": "f5be4824-c0b3-4f24-98d9-b83ce28ce32e",
+      "comment": "",
+      "command": "store",
+      "target": "id=email-2",
+      "targets": [],
+      "value": "myVarMail"
+    }, {
+      "id": "243981b2-1deb-4781-bda5-f6edf4200685",
+      "comment": "",
+      "command": "store",
+      "target": "id=phone_short-2",
+      "targets": [],
+      "value": "myVarPhone"
+    }, {
+      "id": "11e41688-7980-46f1-9d3b-6b9482ec1530",
+      "comment": "",
+      "command": "store",
+      "target": "css=#Consultation-form > .button-6",
+      "targets": [],
+      "value": "myVarButton"
+    }, {
+      "id": "43406cd0-785c-47bd-9764-b649346b1c39",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb043e98-d9fd-4575-9eee-9b9855cd5183",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastname-2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6fc9a3b-338d-4e66-9900-4981ccd3fd04",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastname-2",
+      "targets": [],
+      "value": "Siham"
+    }, {
+      "id": "4aca762a-28ef-4197-96ae-a0e420281bd9",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-2",
+      "targets": [
+        ["id=email-2", "id"],
+        ["name=email", "name"],
+        ["css=#email-2", "css:finder"],
+        ["xpath=//input[@id='email-2']", "xpath:attributes"],
+        ["xpath=//form[@id='Consultation-form']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1c71113-cce3-4c08-99a6-7494498396dd",
+      "comment": "",
+      "command": "type",
+      "target": "${myVarMail}",
+      "targets": [],
+      "value": "duchonsihamafinis@gmail.com"
+    }, {
+      "id": "f139b62e-a7a0-424a-b358-af8a43c2ca0e",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone_short-2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16dcfac7-7e50-453b-8f13-ef342904f476",
+      "comment": "",
+      "command": "type",
+      "target": "${myVarPhone}",
+      "targets": [],
+      "value": "00420598678590"
+    }, {
+      "id": "6fd6adb1-0ea3-4750-a269-b38a972b46d3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#Consultation-form > .button-6",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b943f57c-cea7-48bc-9bb3-4c6ee9051494",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Consultation-form > .button-6",
+      "targets": [
+        ["css=#Consultation-form > .button-6", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='Consultation-form']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f88f8c9-ed77-4845-b21d-819ea630c022",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#Consultation-form > .button-6",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57df88a1-8bba-4711-ac1e-83f2768f942f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ca231469-1c7c-4259-b132-843ce157afa0",
+    "name": "Career introduction",
+    "commands": [{
+      "id": "0dbbfba5-c073-4917-a8fe-930d45b32211",
+      "comment": "",
+      "command": "store",
+      "target": "linkText=Free introduction course into 5 tech careers",
+      "targets": [],
+      "value": "myVarLink"
+    }, {
+      "id": "20773f0e-b676-42e0-9364-d1c2e827f9dc",
+      "comment": "",
+      "command": "store",
+      "target": "linkText=Start learning",
+      "targets": [],
+      "value": "myVarButton"
+    }, {
+      "id": "acf5da8d-e546-4eb5-8955-f77be7b429dd",
+      "comment": "",
+      "command": "store",
+      "target": "id=Lastname",
+      "targets": [],
+      "value": "myVarFullname"
+    }, {
+      "id": "cc971b35-0d28-4778-b3f2-249d2509fc0f",
+      "comment": "",
+      "command": "store",
+      "target": "id=Email",
+      "targets": [],
+      "value": "myVarMail"
+    }, {
+      "id": "a06f231d-801b-4f76-a571-ccf4c980e208",
+      "comment": "",
+      "command": "store",
+      "target": "id=Phone-Short",
+      "targets": [],
+      "value": "myVarPhone"
+    }, {
+      "id": "dc7e9e7a-ef83-4206-945e-b9cc8b51b0f5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2adf90d-7d42-49aa-b048-ccb2959466ee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Free introduction course into 5 tech careers",
+      "targets": [
+        ["linkText=Free introduction course into 5 tech careers", "linkText"],
+        ["css=.menu-col-div > .mobile-menu-col .menu-item-mb-3", "css:finder"],
+        ["xpath=(//a[contains(text(),'Free introduction course into 5 tech careers')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/courses/intrototech')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "463cc93f-e5d7-4fe7-a9b2-46d6047635f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start learning",
+      "targets": [
+        ["linkText=Start learning", "linkText"],
+        ["css=.button-div-3 > .button-3", "css:finder"],
+        ["xpath=//a[contains(text(),'Start learning')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[22]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start learning')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9252e9d-92db-4291-ae36-03abadd3ef3d",
+      "comment": "",
+      "command": "click",
+      "target": "id=Lastname",
+      "targets": [
+        ["id=Lastname", "id"],
+        ["name=Lastname", "name"],
+        ["css=#Lastname", "css:finder"],
+        ["xpath=//input[@id='Lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='w-node-_39794148-2a82-c652-1de9-2f84aeb03fb8-bec6ecc3']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9369dff-80a8-41c2-b1d9-05a942035ebb",
+      "comment": "",
+      "command": "type",
+      "target": "${myVarFullname}",
+      "targets": [],
+      "value": "Sara"
+    }, {
+      "id": "bf11780f-d573-44e1-8d4d-66732f8f77aa",
+      "comment": "",
+      "command": "click",
+      "target": "${myVarMail}",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//form[@id='Intro-registration']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bb92e08-10a4-42b2-b64d-90e921e7a644",
+      "comment": "",
+      "command": "type",
+      "target": "${myVarMail}",
+      "targets": [],
+      "value": "SaraKonor@gmail.com"
+    }, {
+      "id": "455fcda9-84c3-430b-9d8a-9cf70fe53ffe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iti__arrow",
+      "targets": [
+        ["css=.iti__arrow", "css:finder"],
+        ["xpath=//form[@id='Intro-registration']/div/div[3]/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b796623-12a2-4112-8f0b-30442bdcf5be",
+      "comment": "",
+      "command": "type",
+      "target": "${myVarPhone}",
+      "targets": [
+        ["id=Phone-Short", "id"],
+        ["name=Phone-Short", "name"],
+        ["css=#Phone-Short", "css:finder"],
+        ["xpath=//input[@id='Phone-Short']", "xpath:attributes"],
+        ["xpath=//form[@id='Intro-registration']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "+420778467380"
+    }, {
+      "id": "e249f93e-3f6a-4907-9137-8154fa946edd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Intro-registration > .button-6",
+      "targets": [
+        ["css=#Intro-registration > .button-6", "css:finder"],
+        ["xpath=//input[@value='Go to the first lesson']", "xpath:attributes"],
+        ["xpath=//form[@id='Intro-registration']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b80ea714-d3a8-45fb-af75-a05983deece5",
+    "name": "Take the test",
+    "commands": [{
+      "id": "61f2142a-81e6-43e9-9101-01241ba12e64",
+      "comment": "",
+      "command": "store",
+      "target": "linkText=Take the test",
+      "targets": [],
+      "value": "myVarButtonTest"
+    }, {
+      "id": "2ffbbf56-51d1-4809-948e-375b609bf618",
+      "comment": "",
+      "command": "store",
+      "target": "linkText=Start test",
+      "targets": [],
+      "value": "myVarButtonStartTest"
+    }, {
+      "id": "623ced4d-e95f-40be-8d04-b31bbd96e426",
+      "comment": "",
+      "command": "store",
+      "target": "id=btn-next",
+      "targets": [],
+      "value": "myVarButtonNext"
+    }, {
+      "id": "f98dc655-02c0-407a-ab81-785651fa0c47",
+      "comment": "",
+      "command": "store",
+      "target": "linkText=Female",
+      "targets": [],
+      "value": "myVarGender"
+    }, {
+      "id": "82789c20-e45d-4d92-851d-bc7df5a5cc0a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0901ff98-5b45-4fbb-9a87-bd6394dc0199",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start test",
+      "targets": [
+        ["linkText=Start test", "linkText"],
+        ["css=.bat-hero-test__info-button > .button-default", "css:finder"],
+        ["xpath=//a[contains(text(),'Start test')]", "xpath:link"],
+        ["xpath=//div[@id='content']/section/div/div/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[3]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "561f9c31-6095-42c9-aeda-0ae7a22c0299",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fae28830-443b-4c59-8b14-ce8e35e74f69",
+      "comment": "",
+      "command": "click",
+      "target": "${myVarButtonStartTest}",
+      "targets": [
+        ["linkText=Start test", "linkText"],
+        ["css=.bat-hero-test__info-button > .button-default", "css:finder"],
+        ["xpath=//a[contains(text(),'Start test')]", "xpath:link"],
+        ["xpath=//div[@id='content']/section/div/div/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[3]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd8149a7-9659-411e-b132-269bd3ed0ddb",
+      "comment": "",
+      "command": "click",
+      "target": "${myVarGender}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3822fa01-4074-48e8-a9a6-2101d08ad4fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bat-questions-list__active > .question:nth-child(1) > .answer:nth-child(2) .check",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8f0367d-7ea2-4515-b963-a9019979d2eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bat-questions-list__active > .question:nth-child(2) > .answer:nth-child(2) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7b14c33-42a5-482a-a3bf-46cb0d901ef1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bat-questions-list__active > .question:nth-child(3) > .answer:nth-child(3) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfc8c9bd-4a08-4b2a-9ed6-ee671533ff0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bat-questions-list__active > .question:nth-child(4) > .answer:nth-child(2) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f319bbaf-4b87-4b9c-a9ba-20a4e5f02f7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bat-questions-list__active > .question:nth-child(5) > .answer:nth-child(2) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a2bc736-8697-468a-96dc-b9a1a5fa9e5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bat-questions-list__active > .question:nth-child(6) > .answer:nth-child(2) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4aea1b21-84b3-45ad-9257-9d861cc2db70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bat-questions-list__active > .question:nth-child(7) > .answer:nth-child(3) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "077c61bb-cdcc-485c-9e4d-b34b37af07ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bat-questions-list__active > .question:nth-child(8) > .answer:nth-child(2) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "967c35e3-8d9b-4258-aad9-f2e7da891d71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bat-questions-list__active > .question:nth-child(9) > .answer:nth-child(2) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "488839dc-a138-4b76-b7cb-17e73962d046",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bat-questions-list__active > .question:nth-child(10) > .answer:nth-child(3) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05b633f2-2aa8-4242-b162-5fad42d965b3",
+      "comment": "",
+      "command": "click",
+      "target": "${myVarButtonNext}",
+      "targets": [
+        ["id=btn-next", "id"],
+        ["css=#btn-next", "css:finder"],
+        ["xpath=//button[@id='btn-next']", "xpath:attributes"],
+        ["xpath=//form[@id='wpt-test-form-165']/div[13]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29ffc672-aa44-4250-9582-2b762fc2f013",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d6786091-e0a8-47fb-8f3a-3b175d0f0e49",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a1b58d40-c3a2-47ca-bc23-55a27007c67f"]
+  }],
+  "urls": ["https://beetrootacademy.com/", "https://test.beetrootacademy.com/?_gl=1%2A1eavxl9%2A_ga%2AMTkxNDkwOTU4MS4xNzExMjA0MDY5%2A_ga_TKNMVTMFQV%2AMTcxMTIwNDA2OC4xLjEuMTcxMTIwNzc0OC4xOS4wLjA."],
+  "plugins": []
+}
